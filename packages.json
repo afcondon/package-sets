@@ -172,6 +172,22 @@
     "repo": "https://github.com/purescript/purescript-distributive.git",
     "version": "v3.0.0"
   },
+  "dom": {
+    "dependencies": [
+        "datetime",
+        "enums",
+        "exceptions",
+        "foldable-traversable",
+        "foreign",
+        "js-date",
+        "media-types",
+        "nullable",
+        "prelude",
+        "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-dom.git",
+    "version": "v4.0.0"
+  },
   "eff": {
     "dependencies": [
       "prelude"
